@@ -1,18 +1,28 @@
 <updates>
-    <exe_path>bin/client.exe</exe_path>
+    <!-- Caminho do executável relativo à pasta do cliente -->
+    <exe_path>client/bin/client.exe</exe_path>
 
-    <patch>
-        <title>Versão 1.0.0</title>
-        <desc>Lançamento inicial do cliente com sistema de login e interface atualizada.</desc>
-    </patch>
+    <!-- Informações do servidor -->
+    <server_info>
+        <name>PaulistinhaOT</name>
+        <version>15.10</version>
+        <description>Servidor global com conteúdo completo da versão 15, com sistema moderno, eventos ativos e comunidade ativa.</description>
+        <website>https://paulistinhaot.com</website>
+        <discord>https://discord.gg/paulistinhaot</discord>
+        <last_update>2025-08-01</last_update>
+    </server_info>
 
-    <patch>
-        <title>Versão 1.1.0</title>
-        <desc>Correção de bugs, melhorias de performance e novos mapas adicionados.</desc>
-    </patch>
-
-    <patch>
-        <title>Versão 1.2.0</title>
-        <desc>Novos itens mágicos e ajustes na interface do usuário.</desc>
-    </patch>
+    <!-- Lista de patches/atualizações -->
+    <patches>
+        <patch>
+            <title>Versão 15.10 - Novos Recursos</title>
+            <date>2025-08-10</date>
+            <desc>
+                Implementação de:
+                - Sistema de guildas aprimorado
+                - Novos mapas e monstros
+                - Melhorias na experiência do usuário
+            </desc>
+        </patch>
+    </patches>
 </updates>
